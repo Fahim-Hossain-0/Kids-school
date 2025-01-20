@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 300 to 700 */
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh; */
+    /* width: 95%; */
+    /* margin: 0 auto; */
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+    /* width: 95%; */
+    /* margin: 0 auto; */
+    padding-top: 24px;
+    background: var(--White, #F7F7F7);
+    /* background: #1; */
+}
+nav{
+    
+    /* background: var(--White, #F7F7F7); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.nav-logo img{}
+.nav-logo h2{
+    color: var(--Black, #111);
+font-family: Quicksand;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 93.75% */
+}
+ul{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+ul li{
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    /* color: var(--Orange, #FEA301); */
+font-family: Quicksand;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+}
+.nav-btn{}
+.nav-btn button{
+    color: #FFF;
+font-family: Quicksand;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+    border-radius: 12px;
+background: var(--Orange, #FEA301);
+border: 1px solid transparent;
+padding: 8px 40px;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+.nav-btn button:hover{
+    background: transparent;
+    color: #FEA301;
+    border:1px solid #FEA301;
+}
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 24px;
+}
+.banner-text{}
+.banner-text h1{
+    /* color: var(--Orange, #FEA301); */
+font-family: Quicksand;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 61px; /* 108.929% */
+}
+.banner-text p{
+    color: var(--Black, #111);
+font-family: Quicksand;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 24px 0;
+}
+.banner-text button{
+    color: #FFF;
+font-family: Quicksand;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+    border-radius: 12px;
+background: var(--Black, #111);
+    padding: 10px 40px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.banner-text button:hover{
+    background: transparent;
+    color: #111;
+    border: 1px solid #111;
+}
