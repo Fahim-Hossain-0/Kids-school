@@ -31,6 +31,9 @@ body{
     width: 95%;
     margin: 0 auto;
 }
+.icon, hr{
+    display: none;
+}
 header{
     /* width: 95%; */
     /* margin: 0 auto; */
@@ -39,7 +42,8 @@ header{
     /* background: #1; */
 }
 nav{
-    
+    width: 95%;
+    margin: 0 auto;
     /* background: var(--White, #F7F7F7); */
     display: flex;
     align-items: center;
@@ -51,7 +55,9 @@ nav{
     justify-content: center;
     gap: 5px;
 }
-.nav-logo img{}
+.nav-logo img{
+    width: 100%;
+}
 .nav-logo h2{
     color: var(--Black, #111);
 font-family: Quicksand;
@@ -100,13 +106,17 @@ transition: all .3s ease-in-out;
 }
 /* banner */
 .banner{
+    width: 95%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
     margin-top: 24px;
 }
-.banner-text{}
+.banner-text{
+    
+}
 .banner-text h1{
     /* color: var(--Orange, #FEA301); */
 font-family: Quicksand;
@@ -143,3 +153,102 @@ background: var(--Black, #111);
     color: #111;
     border: 1px solid #111;
 }
+.banner-img{}
+.banner-img img{
+    width: 100%;
+ }
+ /* Standard Curriculum */
+.standard-curriculum{
+   
+    background: url(/assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.standard-curriculum-container{
+    width: 95%;
+    margin: 0 auto;
+}
+.standard-curriculum-container h2{
+    padding-top: 60px;
+    /* margin-top: 60px; */
+    color: #000;
+text-align: center;
+font-family: Quicksand;
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: 57.5px; /* 125% */
+}
+.card-container{
+    margin-top: 80px;
+    /* padding-top: 65px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.card{
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.card img{}
+.card h5{
+    color: #202020;
+/* text-align: center; */
+font-family: Quicksand;
+font-size: 24.523px;
+font-style: normal;
+font-weight: 700;
+line-height: 30.654px; /* 125% */
+margin-top: 32px;
+}
+.card p{
+    margin: 32px 0;
+    color: #808080;
+/* text-align: center; */
+font-family: Raleway;
+font-size: 15.091px;
+font-style: normal;
+font-weight: 500;
+line-height: 28.296px; /* 187.5% */
+}
+.card a{
+    text-decoration: none;
+    margin: 0;
+    color: #64C8FF;
+/* text-align: center; */
+font-family: Quicksand;
+font-size: 15.091px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.296px; /* 187.5% */ 
+}
+.card-1{
+    border-radius: 18.864px;
+border: 0.943px solid #DEF5FF;
+background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.card-2{
+    border-radius: 18.864px;
+border: 0.943px solid #FFF4DC;
+background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.card-3{
+    border-radius: 18.864px;
+border: 0.943px solid #F2E8FF;
+background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.carosul-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 80px 0 60px 0;
+    text-align: center;
+}
+.carosul-icon{}
+

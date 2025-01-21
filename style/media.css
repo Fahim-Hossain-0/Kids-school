@@ -1,0 +1,96 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+     .container {
+         width: 90%;
+         /* margin: 0 auto; */
+     }
+
+     .nav-btn,
+     ul,
+     .h2,.carosul-icon {
+         display: none;
+     }
+
+     .icon,
+     hr {
+         display: block;
+
+     }
+
+     .nav-logo img {
+         width: 90%;
+     }
+
+     hr {
+         margin-top: 12px;
+         border: 1px solid var(--Orange, #FEA301);
+     }
+
+     .banner {
+        text-align: center;
+         flex-direction: column-reverse;
+     }
+
+     .banner-text h1 {
+         font-size: 32px;
+         line-height: normal;
+     }
+
+     .banner-text p {
+         line-height: normal;
+     }
+     .banner-text button{
+        padding: 6px 24px;
+     }
+     /* Standard Curriculum */
+     .standard-curriculum-container{
+        width: 90%;
+     }
+     .standard-curriculum-container h2{
+        padding-top: 60px;
+        font-size: 26px;
+        line-height: normal;
+     }
+
+     .card-container{
+        padding-top: 30px;
+        flex-direction: column;
+     }
+     .card h5{
+        margin-top: 20px;
+        font-size: 16.603px;
+font-style: normal;
+font-weight: 700;
+line-height: 20.754px
+     }
+     .card p{
+        margin: 20px 0;
+        font-size: 10.217px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.158px
+     }
+     .card a{
+        font-size: 10.217px;
+font-style: normal;
+font-weight: 700;
+line-height: 19.158px;
+     }
+     .card{}
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {}
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {}
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width:1399.98px) {}
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+ @media (min-width: 1400px) {}
