@@ -21,12 +21,15 @@
          display: none;
      }
 
-     .icon,
-     hr {
+     .icon
+      {
          display: block;
+         margin-right: 10px;
 
      }
-
+     hr{
+        display: none;
+     }
      .nav-logo img {
          width: 90%;
      }
